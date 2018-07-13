@@ -316,7 +316,7 @@ namespace Calculator
              }
              else 
              {
-                if (!number2.Contains("."))
+                if (!number2.Contains(".")  && operation != "")
                 {
                 number2 = number2 + ".";
                 txtDisplay.Text = number2;
